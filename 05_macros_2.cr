@@ -1,5 +1,5 @@
 macro debug(exp)
-  puts "{{exp}} = #{ {{exp}} }"
+  puts "{{exp}} = #{{{exp}}}"
 end
 
 a = 1
