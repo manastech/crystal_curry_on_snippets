@@ -12,7 +12,7 @@
 # that yields each element, and a "length" method. With just this definition, we
 # have this working for Array, Tuple, or any type that conforms to this implicit
 # interface. Because this is usually the way that methods are defined (without types),
-# we can maximum reusability.
+# we get maximum reusability.
 #
 # You might be thinking "but how can I learn this implicit interface",
 # and the answer is that this can be documented, or maybe not at all, but we can

@@ -25,5 +25,3 @@ rectangle = Rectangle.new(3, 4)
 
 puts perimeter(circle)
 puts perimeter(rectangle)
-
-

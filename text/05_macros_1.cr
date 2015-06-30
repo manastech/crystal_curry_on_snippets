@@ -1,4 +1,5 @@
-# In this example we can see some repetitive code, the methods
+# Let's take the previous Person class.
+# We can see some repetitive code, the methods
 # "name" and "address" look the same except for the actual name used.
 
 class Person
@@ -19,7 +20,7 @@ puts john.name
 puts john.address
 
 # We can create a macro that captures this pattern and then we can
-# invoke it.
+# apply it.
 #
 # So, we define a macro "def_getter"
 

@@ -12,14 +12,12 @@ class Rectangle
   end
 end
 
-shapes = [Circle.new(10), Rectangle.new(3, 4)]
+shape = rand(0..1) == 0 ? Circle.new(10) : Rectangle.new(3, 4)
 
-shapes.each do |shape|
-  if shape.is_a?(Circle)
-    puts "Got a circle with radius #{shape.radius}"
-  end
+if shape.is_a?(Circle)
+  puts "Got a circle with radius #{shape.radius}"
+end
 
-  if shape.is_a?(Rectangle)
-    puts "Got a rectangle of #{shape.width} x #{shape.height}"
-  end
+if shape.is_a?(Rectangle)
+  puts "Got a rectangle of #{shape.width} x #{shape.height}"
 end

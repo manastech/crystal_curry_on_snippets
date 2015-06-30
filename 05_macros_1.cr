@@ -1,16 +1,16 @@
-class Person
-  def initialize(@name, @address)
+class Point
+  def initialize(@x, @y)
   end
 
-  def name
-    @name
+  def x
+    @x
   end
 
-  def address
-    @address
+  def y
+    @y
   end
 end
 
-john = Person.new "John", "Prague"
-puts john.name
-puts john.address
+point = Point.new 1, 2
+puts point.x
+puts point.y

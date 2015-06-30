@@ -1,11 +1,9 @@
-# Because blocks that receive one argument are very common, we have a compact
-# syntax for them.
-#
-# This example just maps, or converts, each number in the array to a string.
+# Another example for blocks is this one, where we map, or convert, each number in an array to a string.
 
 puts [1, 20, 300].map { |x| x.to_s }
 
-# With the compact notation this can also be written like this:
+# Because blocks that receive one argument are very common, we have a compact
+# syntax for them.
 
 puts [1, 20, 300].map &.to_s
 

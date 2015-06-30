@@ -1,3 +1,3 @@
-point = {1, 2}
-puts point[0]
-puts point[1]
+tup = {1, "hello"}
+puts tup[0]
+puts tup[1]

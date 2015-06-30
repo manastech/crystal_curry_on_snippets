@@ -1,9 +1,18 @@
 # Here we have a Person class with two properties: name and address.
 
 class Person
-  property name, address
-
   def initialize(@name)
+  end
+
+  def name
+    @name
+  end
+
+  def address
+    @address
+  end
+
+  def address=(@address)
   end
 end
 
